@@ -5,5 +5,3 @@ Private Sub Main()
     Load frmMenu
     frmMain.Show
 End Sub
-
-

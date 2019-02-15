@@ -124,8 +124,6 @@ End Sub
 Private Sub Form_MouseMove(Button As Integer, Shift As Integer, X As Single, Y As Single)
 If Button = 1 Then
     frmMain.Show
-    frmMain.WindowState = 0
-    If frmMain.Top < 0 Then frmMain.Top = 100
 ElseIf Button = 2 Then
     Me.PopupMenu ÍÐÅÌ²Ëµ¥
 End If
